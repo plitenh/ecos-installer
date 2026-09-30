@@ -1,7 +1,5 @@
 name: Auto-bump toolchain locks
 on:
-  push:
-    branches: [fix/bump-token-for-auto-bump]
   schedule:
     # 02:17 UTC daily; off the :00/:30 marks
     - cron: "17 2 * * *"
